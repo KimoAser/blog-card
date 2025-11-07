@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "figtree";
+    src: url("./fonts/Figtree-VariableFont_wght.ttf") format(truetype);
+}
+body {
+    background-color: yellow;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    background-color: aliceblue;
+    border-radius: 2rem;
+    max-width: 25rem;
+    padding: clamp(0.25rem, -0.25rem + 8vw, 1.25rem);
+    box-shadow: 0.5rem 0.5rem 0 black;
+}
+h2,h5,p {
+    font-family: "figtree";
+}
+.header {
+  
+    margin-bottom: 1rem;
+}
+.header img {
+    width: 100%;
+    border-radius: 0.625rem;
+}
+.second {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 1rem;
+}
+.second h2 {
+    font-size: clamp(0.25rem, -0.318rem + 9.091vw, 1.5rem);
+}
+.second h2:hover {
+    color: yellow;
+}
+.second h5 {
+    font-size: clamp(0.25rem, -0.25rem + 8vw, 1rem);
+}
+.second p {
+    font-size: clamp(0.25rem, -0.038rem + 4.615vw, 1rem);
+}
+button {
+    background-color: yellow;
+    font-weight: bold;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.313rem;
+}
+footer {
+    margin: 0.938rem 0;
+}
+.last {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+.last-pic {
+    max-width: 1.875rem;
+}
+.last-pic img {
+    width: 100%;
+}
+.last h5 {
+    font-weight:800;
+}
